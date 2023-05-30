@@ -5,6 +5,7 @@
         <table> 
         <tr><td>UserName: </td><td><asp:TextBox Id="Username" runat="server" name="username"/></td><td><span id="status"></span></td></tr>
         <tr><td>Password :</td><td><asp:TextBox id="Password" runat="server" type="password" name="password"/></td></tr>
+         <tr><td>Password :</td><td>password12345678</td></tr>
          <tr><td><asp:button ID="Button1" runat="server" Text="Login" onclick="LoginButton_Click"/></td></tr>
         </table>  
         </form>
